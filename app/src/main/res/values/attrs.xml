@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--设置参数 -->
+    <attr name="authCodeText" format="string"/><!--验证码显示值-->
+    <attr name="authCodeBackground" format="color"/><!--验证码背景-->
+    <attr name="authCodeTextSize" format="dimension"/><!--验证码位数-->
+
+    <!--声明-->
+    <declare-styleable name="AuthCodeUtils">
+        <attr name="authCodeText"/>
+        <attr name="authCodeBackground"/>
+        <attr name="authCodeTextSize"/>
+    </declare-styleable>
+</resources>
